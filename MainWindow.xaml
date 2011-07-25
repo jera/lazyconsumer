@@ -1,0 +1,7 @@
+﻿<Window x:Class="Microsoft.Research.Kinect.Samples.CursorControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect Cursor Control" Height="404" Width="649" Loaded="Window_Loaded" Closed="Window_Closed" 
+        WindowStartupLocation="CenterScreen" StateChanged="Window_StateChanged" ResizeMode="CanResize" Icon="CursorControl.ico" Topmost="True" WindowState="Maximized" WindowStyle="None" Cursor="Hand">
+    <WebBrowser Name="webBrowser1" Source="http://labs.jera.com.br/lazyconsumer" />
+</Window>
